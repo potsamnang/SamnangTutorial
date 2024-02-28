@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem 3rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 3rem;
+}
+.navbar ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: 600px;
+}
+.navbar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}

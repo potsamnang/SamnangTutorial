@@ -1,0 +1,27 @@
+.card {
+  width: 70%;
+  display: flex;
+  background-color: rgb(217, 248, 246);
+  border-radius: 20px;
+}
+.card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.card .list-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 5rem;
+  gap: 2rem;
+}
+.card .list-card a {
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.card .list-card p {
+  font-size: 2rem;
+}
